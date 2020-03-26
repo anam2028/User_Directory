@@ -8,7 +8,11 @@ class App extends React.Component {
   };
 
 render(){
-    return(<div></div>)
+    return(
+    <div>
+      {this.state.employees.map(employee => <div>Name.{employee.name}</div>)}
+    </div>)
+
 }
 }
 
