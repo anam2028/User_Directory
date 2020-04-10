@@ -1,6 +1,9 @@
 {
   "name": "client",
   "version": "0.1.0",
+  "engines": {
+    "node": "12.14.1"
+  },
   "private": true,
   "homepage": "https://anam2028.github.io/User_Directory",
   "dependencies": {
